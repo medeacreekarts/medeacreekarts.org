@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Medea Creek Arts Collective</title>
+<meta name="description" content="An informal collective of artists and makers in Oak Park and Agoura Hills, California. No jury, no portfolio review.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Medea Creek Arts Collective">
+<meta property="og:description" content="Artists and makers between Oak Park and Agoura Hills.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://medeacreekarts.org">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Source+Sans+3:wght@300;400;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --oak:#22261F;
+    --cobalt:#2B4A6F;
+    --sycamore:#B6B8AC;
+    --iron:#A2542F;
+    --bisque:#EDE9DF;
+    --stone:#CFD2C9;
+    --display:'EB Garamond',Georgia,serif;
+    --body:'Source Sans 3',system-ui,sans-serif;
+    --label:'IBM Plex Mono',ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;min-height:100vh;background:var(--bisque);color:var(--oak);
+    font-family:var(--body);font-weight:300;line-height:1.6;
+    font-variant-numeric:oldstyle-nums;
+    -webkit-font-smoothing:antialiased;
+    display:flex;flex-direction:column;
+  }
+  main{
+    flex:1;width:100%;max-width:640px;margin:0 auto;
+    padding:clamp(48px,11vh,110px) clamp(22px,6vw,32px) 48px;
+  }
+
+  .mark{width:78px;height:78px;color:var(--cobalt);display:block;margin-bottom:30px}
+  .creek{stroke-dasharray:150;stroke-dashoffset:150;animation:flow 1.7s .3s cubic-bezier(.5,0,.15,1) forwards}
+  @keyframes flow{to{stroke-dashoffset:0}}
+  @media (prefers-reduced-motion:reduce){
+    .creek{animation:none;stroke-dashoffset:0}
+  }
+
+  .name{margin:0 0 40px;max-width:max-content}
+  h1{
+    font-family:var(--display);font-weight:500;
+    font-size:clamp(38px,8.5vw,60px);line-height:1.02;letter-spacing:-.015em;
+    margin:0 0 14px;
+  }
+  /* the county line: a hairline the wordmark sits across */
+  .sub{
+    font-family:var(--label);font-size:11px;letter-spacing:.26em;text-transform:uppercase;
+    color:rgba(34,38,31,.6);margin:0;
+    border-top:1px solid rgba(34,38,31,.32);padding-top:14px;
+  }
+
+  .lede{
+    font-family:var(--display);font-size:clamp(20px,3.6vw,25px);line-height:1.42;
+    margin:0 0 28px;color:var(--oak);
+  }
+  p{margin:0 0 18px;font-size:17px;max-width:56ch}
+  em{font-style:italic}
+
+  .rule{border:0;border-top:1px solid rgba(34,38,31,.2);margin:38px 0 32px}
+
+  h2{
+    font-family:var(--label);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    color:rgba(34,38,31,.55);font-weight:400;margin:0 0 16px;
+  }
+
+  .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+  .btn{
+    display:inline-block;text-decoration:none;font-family:var(--body);font-weight:600;
+    font-size:15px;padding:12px 22px;border:1px solid var(--cobalt);color:var(--cobalt);
+    background:transparent;transition:background .18s ease,color .18s ease;
+  }
+  .btn:hover,.btn:focus-visible{background:var(--cobalt);color:var(--bisque)}
+  .btn.solid{background:var(--cobalt);color:var(--bisque)}
+  .btn.solid:hover,.btn.solid:focus-visible{background:var(--oak);border-color:var(--oak)}
+  a:focus-visible{outline:2px solid var(--iron);outline-offset:3px}
+
+  ul{margin:0 0 18px;padding-left:1.1em;max-width:56ch}
+  li{margin-bottom:9px;font-size:17px}
+  li::marker{color:var(--cobalt)}
+
+  footer{
+    border-top:1px solid rgba(34,38,31,.2);
+    padding:26px clamp(22px,6vw,32px) 40px;
+    max-width:640px;margin:0 auto;width:100%;
+  }
+  footer p{
+    font-size:13px;color:rgba(34,38,31,.62);margin:0 0 8px;max-width:60ch;line-height:1.55;
+  }
+  footer a{color:rgba(34,38,31,.62)}
+  .sig{
+    font-family:var(--label);font-size:10px;letter-spacing:.2em;text-transform:uppercase;
+    color:rgba(34,38,31,.42);margin-top:16px;
+  }
+</style>
+</head>
+<body>
+
+<main>
+  <svg class="mark" viewBox="0 0 64 64" role="img" aria-label="Medea Creek Arts Collective">
+    <title>Medea Creek Arts Collective</title>
+    <path class="creek" d="M32 5C6 17 58 24 32 34S6 51 32 60" fill="none"
+          stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+  </svg>
+
+  <div class="name">
+    <h1>Medea Creek</h1>
+    <p class="sub">Arts Collective</p>
+  </div>
+
+  <p class="lede">Medea Creek runs south through Oak Park and Agoura Hills, ignoring the county line, the school district boundary, and fifty years of habit.</p>
+
+  <p>We're a new, informal group of artists and makers doing the same. Potters, painters, printmakers, woodworkers, jewellers, fibre artists — anyone making things in this corner of the valley.</p>
+
+  <p><em>No jury. No portfolio review.</em> If you make things here, you're in.</p>
+
+  <hr class="rule">
+
+  <h2>What we're building</h2>
+  <ul>
+    <li>A public directory of local artists, so people can find and commission work nearby</li>
+    <li>A community craft fair, planned for autumn</li>
+    <li>Open studio days, small and low-stakes</li>
+    <li>A scholarship for a graduating local student in the visual arts</li>
+  </ul>
+
+  <hr class="rule">
+
+  <h2>Founding members wanted</h2>
+  <p>We're looking for the first dozen or so people. If that's you — or if you just want to hear when something's happening — say hello.</p>
+
+  <div class="cta">
+    <a class="btn solid" href="mailto:hello@medeacreekarts.org?subject=Founding%20member">Get in touch</a>
+    <a class="btn" href="https://instagram.com/medeacreekarts" rel="me noopener">Instagram</a>
+  </div>
+</main>
+
+<footer>
+  <p>Medea Creek Arts Collective is an independent community group. We are not affiliated with, endorsed by, or connected to Medea Creek Middle School, Oak Park Unified School District, or Las Virgenes Unified School District.</p>
+  <p>Oak Park &amp; Agoura Hills, California · <a href="mailto:hello@medeacreekarts.org">hello@medeacreekarts.org</a></p>
+  <p class="sig">Est. 2026</p>
+</footer>
+
+</body>
+</html>
