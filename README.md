@@ -19,10 +19,10 @@ files from there; do not redraw them here.
 ## Before the Instagram wave
 
 The iPhone button is the TestFlight public link (capped at 50 testers in App Store Connect; raise
-the cap there if it fills). The web button is a `mailto:` link until this exists:
-
-1. **An intake form** (Tally or Google Forms: name, email, platform, how you heard). Replace the web
-   button's `href` with it, and issue sign-up codes from the Platform page in a weekly batch.
+the cap there if it fills). The web button is the Tally intake form (name, email, platform, how
+you heard; responses are emailed to hello@medeacreekarts.org). Weekly: export the new responses,
+make a sign-up code for each web tester on the admin app's Platform page, and email each one the
+code and the dev link.
 
 ## At launch
 
