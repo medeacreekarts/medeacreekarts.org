@@ -18,11 +18,10 @@ files from there; do not redraw them here.
 
 ## Before the Instagram wave
 
-The two beta buttons on `meander/index.html` are `mailto:` links until these exist:
+The iPhone button is the TestFlight public link (capped at 50 testers in App Store Connect; raise
+the cap there if it fills). The web button is a `mailto:` link until this exists:
 
-1. **TestFlight public link.** In App Store Connect, TestFlight, the external group: turn on the
-   public link and cap it at about 50 testers. Replace the iPhone button's `href` with it.
-2. **An intake form** (Tally or Google Forms: name, email, platform, how you heard). Replace the web
+1. **An intake form** (Tally or Google Forms: name, email, platform, how you heard). Replace the web
    button's `href` with it, and issue sign-up codes from the Platform page in a weekly batch.
 
 ## At launch
