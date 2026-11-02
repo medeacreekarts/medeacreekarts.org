@@ -108,6 +108,20 @@ ol li::marker{font-family:var(--label);font-size:14px}
 .steps strong{font-weight:600}
 .paths .btn{margin-top:auto;align-self:flex-start;text-align:center}
 
+.screens{
+  display:grid;grid-auto-flow:column;grid-auto-columns:minmax(200px,1fr);gap:14px;
+  margin:34px calc(-1 * clamp(22px,6vw,32px)) 0;padding:0 clamp(22px,6vw,32px);
+  overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;
+}
+.screens::-webkit-scrollbar{display:none}
+.screens figure{margin:0;scroll-snap-align:start}
+.screens img{display:block;width:100%;height:auto}
+.screens figcaption{
+  font-family:var(--label);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:rgba(34,38,31,.55);margin-top:10px;text-align:center;
+}
+@media (max-width:559px){.screens{grid-auto-columns:72%}}
+
 .fine{font-size:14px;color:var(--ink2);max-width:60ch}
 
 footer{
