@@ -18,7 +18,7 @@ Image: `01-friends.jpg` alone, or the brand kit's `instagram-post.png` (the mark
 
 ## Post 2: the tease and the call for testers
 
-Slides: `01-friends.jpg`, then `02-works.jpg`.
+Slides: `01-friends.jpg`, `02-works.jpg` (Kate's works), then `02b-piece.jpg` (the Friends piece page).
 
 > Meander is an app for the art your family makes. Photograph a piece, say whose it is, and it is
 > kept by artist and year. Private, free, no ads.
